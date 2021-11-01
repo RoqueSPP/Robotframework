@@ -12,9 +12,10 @@
 4. Clicar em Cadastre seu Currículo
 6. abrirá uma nova aba onde será preenchido o formulario de cadastro
 7. o formulário será preenchido e dará um clique finalizar.
-8. obs: para que o robotframework anexe o currículo com o teste, é preciso clicar com o botão direito e copiar o caminho absoluto do arquivo conforme exemplo:
-
-9.exemplo:  ${anexo}           C:\\Users\\rsppn\\Desktop\\Jobcamp\\Aula01\\Roque-curriculo.pdf
+8. obs: para que o robotframework anexe o currículo com o teste,
+9. é preciso clicar com o botão direito e copiar o caminho absoluto do arquivo conforme exemplo:
+10.exemplo:
+11. ${anexo}           C:\\Users\\rsppn\\Desktop\\Jobcamp\\Aula01\\Roque-curriculo.pdf
 
 ## Sobre a execução do projeto: 
 
