@@ -23,7 +23,7 @@ acessar a pagina Prime Control
 Preencher o formulário de curriculum
 
     Input text                         ${name}             Roque Simão Pires Pereira
-    Input text                         ${headline}         Analista de testesQA
+    Input text                         ${headline}         Analista de testes QA
     Input text                         ${salary}           70000
     Input text                         ${email}            rsppnet@hotmail.com
     Input text                         ${phone}            11996420062
