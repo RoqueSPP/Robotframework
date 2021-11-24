@@ -1,7 +1,6 @@
 ***Settings***
 
 Resource        Resources.robot
-       
 
 
 
@@ -10,7 +9,7 @@ acessar a pagina Prime Control
     Open Browser                      ${url}             chrome
     Maximize Browser Window
     BuiltIn.Sleep                     1
-    Click_Element   	              ${Accept}
+    Click_Element                     ${Accept}
     Click_Element                     ${contatos}
     BuiltIn.Sleep                     1
     Click_Element                     ${trabalhe}
@@ -58,7 +57,7 @@ Preencher o formulário de curriculum
     Click_Element                      ${webpage}
     Input Text                         ${Site}             https://www.linkedin.com/in/roque-pereira79/
     Scroll Element Into View           ${file}
-    Choose File                        ${file}             ${Roque}
+    Choose File                        ${file}             ${EXECDIR}/${Roque}
     Scroll Element Into View           ${finish}
     Click Button                       ${finish}
                
