@@ -8,7 +8,6 @@ Library         SeleniumLibrary
 ***Variables***
 ${resume}                   Analista de testes automatizados com foco em qualidade em toda esteira de desenvolvimento, implementando a cultura shift left testing.
 ${7comm}                    Realizar teste manual com regeração de relatório de sucesso ou bugs com evidências.
-${7comm}                    Realizar teste manual com regeração de relatório de sucesso ou bugs com evidências.
 ${Roque}                    Roque-curriculo.pdf
 ${url}                      https://www.primecontrol.com.br
 ${contatos}                 xpath://a[contains(text(), "CONTATO")]
