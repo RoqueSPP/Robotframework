@@ -9,7 +9,6 @@ acessar a pagina Prime Control
     Open chrome                      ${url}
     Maximize Browser Window
     BuiltIn.Sleep                     1
-    Click_Element                     ${Accept}
     Click_Element                     ${contatos}
     BuiltIn.Sleep                     1
     Click_Element                     ${trabalhe}
