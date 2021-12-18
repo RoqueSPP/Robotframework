@@ -6,7 +6,7 @@ Resource        Resources.robot
 
 ***Test Cases***
 acessar a pagina Prime Control
-    Open chrome
+    Open chrome                      ${url}
     Maximize Browser Window
     BuiltIn.Sleep                     1
     Click_Element                     ${Accept}
