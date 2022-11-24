@@ -9,6 +9,8 @@ acessar a pagina Prime Control
     Open Browser                      ${url}    headlesschrome
     Maximize Browser Window
     BuiltIn.Sleep                     1
+    Click_Element                     ${aceita}
+    BuiltIn.Sleep                     1
     Click_Element                     ${contatos}
     BuiltIn.Sleep                     1
     Click_Element                     ${trabalhe}
