@@ -10,6 +10,7 @@ ${resume}                   Analista de testes automatizados com foco em qualida
 ${7comm}                    Realizar teste manual com regeração de relatório de sucesso ou bugs com evidências.
 ${Roque}                    Roque-curriculo.pdf
 ${url}                      https://www.primecontrol.com.br
+${aceita}                   id:hs-eu-confirmation-button
 ${contatos}                 xpath://a[contains(text(), "CONTATO")]
 ${trabalhe}                 xpath://a[contains(text(), "Trabalhe conosco")]
 ${curriculo}                xpath://*[contains(text(), "CADASTRE SEU CURRÍCULO")]
