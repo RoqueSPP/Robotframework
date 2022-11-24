@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
 # Controls when the workflow will run
@@ -28,9 +26,15 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: pip install robotframework
-      - name: selenium
-        run: pip install --upgrade robotframework-seleniumlibrary
+      - name: Selenium
+        run: pip install robotframework-SeleniumLibrary
       - name: executa
-        run: robot aula01.robot
-
-     
+        run: robot -d ./reports main.robot
+      - name: Make Directory for results
+        run: mkdir -p reports
+      - name: Upload test results
+        uses: actions/upload-artifact@v1
+        if: always()
+        with:
+         name: reports
+         path: reports
